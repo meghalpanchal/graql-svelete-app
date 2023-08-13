@@ -24,6 +24,7 @@
     grid-gap: 0.5rem;
     justify-items: center;
     align-items:start;
+    
   }
   .grid .grid-item {
     background-color: #f2f2f2;
@@ -33,11 +34,12 @@
     box-sizing: border-box;
     border: 1px solid #000;
     min-height: 300px;
+    margin:2px 0;
   }
   .inner-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0.5rem;
+    grid-gap:5px;
   }
   .inner-grid-item {
     background-color: #ccc;

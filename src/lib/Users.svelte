@@ -79,10 +79,10 @@
   </div>
 
   {#if newUser?.saved === true}
-    <p class="success-meesage">User {newUser?.name} added suceessfully.</p>
+    <p class="success-message">User {newUser?.name} added suceessfully.</p>
   {/if}
   {#if newUser?.saved === false}
-    <p class="error-meesage">Failed to add User {newUser?.name}.</p>
+    <p class="error-message">Failed to add User {newUser?.name}.</p>
   {/if}
 
   <table class="user-table">
@@ -119,6 +119,7 @@
     border-radius: 0.375rem;
     max-width: 1280px;
     margin: 0 auto;
+    min-height: 75.5vh;
   }
   .user-table {
     width: 100%;
@@ -168,14 +169,14 @@
     border-radius: 0.25rem;
     cursor: pointer;
   }
-  .success-meesage {
+  .success-message {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 15px;
     line-height: 18px;
     color: #095a00;
   }
-  .error-meesage {
+  .error-message {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 15px;
